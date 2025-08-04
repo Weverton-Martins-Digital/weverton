@@ -3,7 +3,7 @@
 
 ### 📚 Sobre Mim
 
-Atualmente, estou imerso no aprendizado de **Java**, construindo uma base sólida para desenvolver aplicações robustas e escaláveis. Além disso, tenho conhecimentos em **HTML** e **CSS**, fundamentais para a criação de interfaces web, e estou começando a explorar **JavaScript** para dar vida e interatividade aos meus projetos.
+<p text-align=justift>Atualmente, estou imerso no aprendizado de Java, construindo uma base sólida para desenvolver aplicações robustas e escaláveis. Além disso, tenho conhecimentos em HTML e CSS, fundamentais para a criação de interfaces web, e estou começando a explorar JavaScript para dar vida e interatividade aos meus projetos.</p>
 
 ---
 
