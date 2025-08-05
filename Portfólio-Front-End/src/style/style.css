@@ -62,3 +62,18 @@ body {
 .parallex-header .content-header .contente-header-icons span i:hover {
     transform: rotate(360deg);
 }
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+.parallex-main {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.parallex-main .content-skills {
+    max-width: fit-content;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
