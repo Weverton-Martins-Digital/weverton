@@ -5,3 +5,60 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.parallex-header { 
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.parallex-header .content-header {
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.parallex-header .content-header h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.parallex-header .content-header h3 {
+    letter-spacing: 1px;
+    color: #ff0000;
+    font-size: 25px;
+}
+
+.parallex-header .content-header .contente-header-icons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.parallex-header .content-header .contente-header-icons span {
+    margin-inline: 25px;
+    transition: 1.0s;
+    margin-top: 10px;
+}
+
+.parallex-header .content-header .contente-header-icons span i {
+    transition: 1.0s;
+    font-size: 4em;
+}
+
+.parallex-header .content-header .contente-header-icons span i:hover {
+    transform: rotate(360deg);
+}
