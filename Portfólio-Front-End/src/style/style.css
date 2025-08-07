@@ -9,6 +9,7 @@
 html,
 body {
     box-sizing: border-box;
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -19,6 +20,7 @@ body {
     background-color: #000000;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     display: flex;
     height: 100vh;
     width: 100%;
@@ -45,6 +47,7 @@ body {
 .parallex-header .content-header .contente-header-icons {
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     display: flex;
 }
 
@@ -55,7 +58,7 @@ body {
 }
 
 .parallex-header .content-header .contente-header-icons span i {
-    transition: 1.0s;
+    transition: 1s;
     font-size: 4em;
 }
 
@@ -66,14 +69,69 @@ body {
 /*//////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////*/
 .parallex-main {
-    min-height: 100vh;
-    height: 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0b7ebb06-0ab5-459f-9d0d-6f2328f513e7/dfyp7rj-be51e5b2-1240-479e-887d-32b04717557e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBiN2ViYjA2LTBhYjUtNDU5Zi05ZDBkLTZmMjMyOGY1MTNlN1wvZGZ5cDdyai1iZTUxZTViMi0xMjQwLTQ3OWUtODg3ZC0zMmIwNDcxNzU1N2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QMuJTBFTXMJrFeXkwQNoAFo9Af3o-dbSHXRnLjXmnwQ);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: max-content;
+    color: #ffffff;
     width: 100%;
 }
 
 .parallex-main .content-skills {
-    max-width: fit-content;
     text-align: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+}
+
+.parallex-main .content-skills .top-skills {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5em;
+    display: flex;
+    width: 100%;
+}
+
+.parallex-main .content-skills .top-skills h3 {
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.parallex-main .content-skills .top-skills section span {
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+
+.parallex-main .content-skills .center-skills {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.parallex-main .content-skills .center-skills section {
+    box-shadow: 3px 5px #444444;
+    border: solid 2px #000000;
+    backdrop-filter: blur(10px);
+    margin-inline: 20px;
+    border-radius: 20px;
+    height: fit-content;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    max-width: 200px;
+    padding: 20px;
+    width: 100%;
+}
+
+.parallex-main .content-skills .center-skills section button {
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.parallex-main .content-skills .center-skills section button:hover {
+    background-color: transparent;
+    color: #ffffff;
 }
